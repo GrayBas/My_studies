@@ -1,1 +1,0 @@
-#a = list(input().split())a = ['Москва', 15000, 'Уфа', 1200, 'Самара', 1090, 'Казань', 1300]#lst = [f'{a[i]}, {a[i+1]}'.split() for i in range(0, len(a), 2)] - Неполучается все выводит как строку в спискеlst = [[a[i], int(a[i+1])] for i in range(0, len(a), 2)]print(lst)
